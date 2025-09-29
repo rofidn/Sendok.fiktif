@@ -1,0 +1,68 @@
+index.html:
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Means & DBSCAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>K-Means & DBSCAN</h1>
+        <nav>
+            <ul>
+                <li><a href="#kmeans">K-Means</a></li>
+                <li><a href="#dbscan">DBSCAN</a></li>
+                <li><a href="#admin">Admin</a></li>
+                <li><a href="#search">Pencarian</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kmeans">
+            <h2>K-Means</h2>
+            <p>K-Means adalah algoritma clustering yang membagi data menjadi K kelompok (cluster) berdasarkan jarak ke centroid.</p>
+            <!-- Tambahkan informasi lebih lanjut tentang K-Means di sini -->
+        </section>
+
+        <section id="dbscan">
+            <h2>DBSCAN</h2>
+            <p>DBSCAN adalah algoritma clustering berbasis kepadatan yang mengidentifikasi cluster berdasarkan kepadatan titik data.</p>
+            <!-- Tambahkan informasi lebih lanjut tentang DBSCAN di sini -->
+        </section>
+
+        <section id="admin">
+            <h2>Login Admin</h2>
+            <form id="loginForm">
+                <label for="username">ID Pengguna:</label>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <label for="password">Kata Sandi:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <button type="submit">Masuk</button>
+            </form>
+            <p id="loginMessage"></p>
+        </section>
+
+        <section id="search">
+            <h2>Pencarian</h2>
+            <form id="searchForm">
+                <label for="searchTerm">Kata Kunci:</label>
+                <input type="text" id="searchTerm" name="searchTerm" required><br><br>
+                <button type="submit">Cari</button>
+            </form>
+            <div id="searchResults"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Situs Web Sederhana</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
